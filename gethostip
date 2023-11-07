@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title> 
+		Get domain from URL 
+	</title> 
+</head> 
+
+<body> 
+	<h1 style="color: green"> 
+		GeeksforGeeks 
+	</h1> 
+	
+	<b>URL is:</b> 
+	
+	<script> 
+		document.write(window.location.href); 
+	</script> 
+		
+	<br> 
+	<b>hostname is:</b> 
+	
+	<script> 
+		document.write(window.location.hostname); 
+	</script> 
+</body> 
+</html>
